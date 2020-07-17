@@ -1,0 +1,37 @@
+.navbar {
+  border-radius: 0px;
+  min-height: 80px;
+  padding-top: 14px;
+  background-color: rgb(65, 226, 65);
+  border: 10px solid rgb(58, 197, 58);
+  a {
+    color: white !important;
+  }
+}
+.navbar-brand {
+  font-family: "Roboto Slab", serif;
+}
+.btnsearch {
+  margin-bottom: 10px;
+}
+#myButtons {
+  button {
+    margin-right: 5px;
+  }
+}
+#dvGif {
+  display: flex;
+  flex-wrap: wrap;
+  .dvflex {
+    flex: 1 1 25%;
+    margin: 5px;
+  }
+}
+#contact,
+#about {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  color: white;
+  background-image: linear-gradient(-45deg, #a5ee52, #59af28, rgb(62, 211, 16));
+  border: 1px solid rgb(72, 200, 72);
+}
